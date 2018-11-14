@@ -1,11 +1,8 @@
-<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-
-<!-- <div align="middle">
+<div align="middle">
     <img src="https://raw.githubusercontent.com/bbvch13531/PwP/master/images/logo.png" height="200px">
-</div> -->
+</div>
 
 
-<p style="font-family: 'Fredoka One', cursive; font-size: 100px;" align="middle">PwP</p>
 <h1 align="center">🕊️ PwP : Peace Wallpaper HD New Tab Themes</h1>
 
 <p align="center">
