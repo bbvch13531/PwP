@@ -11,3 +11,5 @@ function swapImage(){
 	var menu = document.getElementById("backgroundImg");
 	menu.setAttribute("style", randimg)
 }
+
+window.addEventListener('load', swapImage);

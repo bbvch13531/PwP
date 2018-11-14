@@ -6,5 +6,9 @@
 	
 	"chrome_url_overrides" : {
 		"newtab": "pwp.html"
-	}
+	},
+	"web_accessible_resources": [
+		"images/*.png",
+		"script/myjs.js"
+	  ]
 }
