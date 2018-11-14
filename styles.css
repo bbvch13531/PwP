@@ -27,8 +27,8 @@ html, body{
 }
 
 .img_card {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
 }
 
 .flex-container {
@@ -54,7 +54,7 @@ html, body{
 }
 
 .add-margin{
-  margin-top:20px;
+  margin-top:8px;
 }
 
 .toast__svg{
@@ -63,10 +63,10 @@ html, body{
 
 .toast {
   text-align:left;
-    padding: 8px 0;
+    padding: 3px 0;
     background-color:#fff;
     border-radius:4px;
-    max-width: 500px;
+    max-width: 300px;
     top: 0px;
     position:relative;
     box-shadow: 1px 7px 14px -5px rgba(0,0,0,0.2);
@@ -89,7 +89,7 @@ html, body{
   font-weight: 700;
   margin-top: 0;
   margin-left: 20px;
-  font-size: 22px;
+  font-size: 13px;
 }
 
 .toast__message {
