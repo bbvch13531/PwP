@@ -4,25 +4,95 @@
     <head>
         <title>PwP</title>
         <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <script src="toast.js"></script>
     </head>
-    <body>
+    <body id="backgroundImg">
         <h1>Hello extension</h1>
-        <img id="backgroundImg">
 
-        <div class="asdf">
-            <p>
-                <h5>'김정은' 집에서 숙면해...</h5>
-                <h6 class="text-greay">김정은이 자기 자신의 집에서 숙면을 하자 많은 국가에서 반응을 보이고 있다. 이에 남측은...</h6>
-            </p>
-            <p>
-                <h5>북측 또 원전발견</h5>
-                <h6 class="greay">북측이 또 땅파다 석유를 발견해서 놀라움을 자아내고 있다. 땅파서 장사하네 이거 완전 서아시아 아니냐...</h6>
-            </p>
-            <p>
-                <h5>오락실가고싶따</h5>
-                <h6 class="greay">아아아아아아아ㅏ 오락실가고싶따아ㅏㅏ아아아ㅏㅏ ㅏ</h6>
-            </p>
+        <img >
+
+        <!-- toast-container start -->
+        <div class="toast__container">
+        <div class="toast__cell">
+        <div class="toast toast--blue add-margin">
+          <div class="toast__icon">
+            <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+            <g>
+            	<g id="info">
+            		<g>
+            			<path  d="M10,16c1.105,0,2,0.895,2,2v8c0,1.105-0.895,2-2,2H8v4h16v-4h-1.992c-1.102,0-2-0.895-2-2L20,12H8     v4H10z"></path>
+            			<circle  cx="16" cy="4" r="4"></circle>
+            		</g>
+            	</g>
+            </g>
+
+                </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">남북정상회담기념 평화통일 포럼</p>
+            <p class="toast__message">한반도 통일정세와 남북교류 전망'을 주제로 남북정상회담 기념 평화통일 포럼을 개최하고 4.27정상회담과 남북관계, 북한 체제전환과 발전 전망 등에 대한 토론을 하고 있다.</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
         </div>
+
+
+        <div class="toast toast--blue add-margin">
+          <div class="toast__icon">
+        <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+        <g>
+        	<g id="info">
+        		<g>
+        			<path  d="M10,16c1.105,0,2,0.895,2,2v8c0,1.105-0.895,2-2,2H8v4h16v-4h-1.992c-1.102,0-2-0.895-2-2L20,12H8     v4H10z"></path>
+        			<circle  cx="16" cy="4" r="4"></circle>
+        		</g>
+        	</g>
+        </g>
+
+            </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">남북정상회담·평창올림픽 경호 성공적 수행</p>
+            <p class="toast__message">그는 올해 남북 정상회담 및 평창 동계올림픽 경호 작전 주무장교로서 성공적인 회담과 올림픽 개최에 기여한 공로로 합참의장 표창을 받았다.</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
+        </div>
+
+        <div class="toast toast--blue add-margin">
+          <div class="toast__icon">
+            <svg version="1.1" class="toast__svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+            <g>
+            	<g id="info">
+            		<g>
+            			<path  d="M10,16c1.105,0,2,0.895,2,2v8c0,1.105-0.895,2-2,2H8v4h16v-4h-1.992c-1.102,0-2-0.895-2-2L20,12H8     v4H10z"></path>
+            			<circle  cx="16" cy="4" r="4"></circle>
+            		</g>
+            	</g>
+            </g>
+
+                </svg>
+          </div>
+          <div class="toast__content">
+            <p class="toast__type">남북 정상회담 선물 풍산개, 새끼 6마리 낳았다</p>
+            <p class="toast__message">문 대통령 “남북관계 일이 이와 같기를” 문재인 대통령이 지난달 2일 오후 청와대 관저에서 제3차 남북정상회담 당시 북측이 선물한 풍산개 한 쌍 중 암컷인 '곰이'를 어루만지고 있다. 청와대 제공 김정은 북한...</p>
+          </div>
+          <div class="toast__close">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.642 15.642" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 15.642 15.642">
+          <path fill-rule="evenodd" d="M8.882,7.821l6.541-6.541c0.293-0.293,0.293-0.768,0-1.061  c-0.293-0.293-0.768-0.293-1.061,0L7.821,6.76L1.28,0.22c-0.293-0.293-0.768-0.293-1.061,0c-0.293,0.293-0.293,0.768,0,1.061  l6.541,6.541L0.22,14.362c-0.293,0.293-0.293,0.768,0,1.061c0.147,0.146,0.338,0.22,0.53,0.22s0.384-0.073,0.53-0.22l6.541-6.541  l6.541,6.541c0.147,0.146,0.338,0.22,0.53,0.22c0.192,0,0.384-0.073,0.53-0.22c0.293-0.293,0.293-0.768,0-1.061L8.882,7.821z"></path>
+        </svg>
+          </div>
+        </div>
+        </div>
+        </div>
+        <!-- toast-container end -->
     </body>
 </html>
