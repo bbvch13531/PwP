@@ -1,11 +1,10 @@
 {
 	"manifest_version": 2,
-	"name": "Reuni_service",
-	"version": "Develop_1.0",
-	"default_locale": "ko",
+	"name": "PwP : Peace Wallpaper",
+	"version": "1.0",
 	"description": "통일 월페이퍼",
-	// "icons":,
-	"browser_action":{
-
+	
+	"chrome_url_overrides" : {
+		"newtab": "pwp.html"
 	}
 }
