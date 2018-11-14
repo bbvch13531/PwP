@@ -26,8 +26,18 @@ html, body{
 
 }
 
+.img_card {
+  height: 80px;
+  width: 80px;
+}
+
 .flex-container {
   display: flex;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .toast__container {
@@ -53,7 +63,7 @@ html, body{
 
 .toast {
   text-align:left;
-    padding: 21px 0;
+    padding: 8px 0;
     background-color:#fff;
     border-radius:4px;
     max-width: 500px;
@@ -74,18 +84,25 @@ html, body{
   border-bottom-left-radius: 4px;
 }
 
-.toast__text {
-  margin-left: 20px;
-}
-
-.toast__content{
-  padding-left:30px;
-  padding-right:60px;
-
+.toast__header {
   color: #3e3e3e;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-left: 20px;
+  font-size: 22px;
+}
+
+.toast__message {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    color: #878787;
+}
+
+.toast__content{
+  padding-left:20px;
+  padding-right:60px;
 }
 
 .toast__close {
@@ -97,17 +114,6 @@ html, body{
     height: 14px;
   fill:#878787;
     transform: translateY(-50%);
-}
-
-.toast__div_left {
-  /* width: 30%; */
-  /* display: inline; */
-  /* float: left; */
-}
-
-.toast__div_right {
-  /* width: 70%; */
-  /* float: right; */
 }
 
 .toast--green .toast__icon{
