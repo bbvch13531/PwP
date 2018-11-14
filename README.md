@@ -2,7 +2,6 @@
     <img src="https://raw.githubusercontent.com/bbvch13531/PwP/master/images/logo.png" height="200px">
 </div>
 
-
 <h1 align="center">🕊️ PwP : Peace Wallpaper HD New Tab Themes</h1>
 
 <p align="center">
