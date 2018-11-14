@@ -10,5 +10,10 @@ PwP is Based on Chrome Extention Piece Wallpaper shows North Korea and South Kor
 
 ## Introduction
 
-## How to use
+## Features 
+- The day count from Ceasefire to now on.
+- Random peaceful images.
+- News about South Korea and North Korea issues.
+
+## Installation
 Install link: <a href="#">HERE!</a>
