@@ -4,6 +4,7 @@ body, html {
 #backgroundImg {
     background-image: url("../images/image.png");
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,4 +21,3 @@ body, html {
     border-top-left-radius: 50px;
     box-shadow: -5px -5px 11px rgba(255, 255, 255, 0.445), -4px -4px 15px 0 rgba(255, 255, 255, 0.555);
 }
-`
