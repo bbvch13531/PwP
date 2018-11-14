@@ -3,7 +3,11 @@
 	"name": "PwP : Peace Wallpaper",
 	"version": "1.0",
 	"description": "통일 월페이퍼",
-	
+	"permissions": [
+		"http://*/",
+		"http://localhost:8000/",
+		"http://127.0.0.1:8000/"
+	],
 	"chrome_url_overrides" : {
 		"newtab": "pwp.html"
 	},
