@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "PwP : Peace Wallpaper",
+	"version": "1.0",
+	"description": "통일 월페이퍼",
+	
+	"chrome_url_overrides" : {
+		"newtab": "pwp.html"
+	}
+}
