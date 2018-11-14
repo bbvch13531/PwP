@@ -6,9 +6,9 @@
 
 
 ## Overview
-PwP is Piece Wallpaper shows North Korea and South Korea's news and HD pictures.
+PwP is Based on Chrome Extention Piece Wallpaper shows North Korea and South Korea's news and HD pictures.
 
 ## Introduction
 
 ## How to use
-
+Install link: <a href="#">HERE!</a>
