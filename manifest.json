@@ -6,7 +6,8 @@
 	"permissions": [
 		"http://*/",
 		"http://localhost:8000/",
-		"http://127.0.0.1:8000/"
+		"http://127.0.0.1:8000/",
+		"http://52.79.136.5:8000/"
 	],
 	"chrome_url_overrides" : {
 		"newtab": "pwp.html"
